@@ -12,6 +12,8 @@ An example for running the program:
 	 python n50.py -i "MyFirstAssembly_out.unpadded.fasta"
 ```
 
+Here, the fasta file comes from Mira assembly
+
 If you want to save the output to a file:
 ```
 	 python n50.py -i "MyFirstAssembly_out.unpadded.fasta" > outputfile
