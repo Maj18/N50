@@ -1,13 +1,13 @@
 # This workflow will upload a Python Package using Twine when a release is created
 # For more information see: https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
 
-name: Publish python distributions N50 to PyPI and TestPyPI
+name: Build and publish Python 🐍 distributions 📦 to PyPI and TestPyPI
 
 on: push
 
 jobs:
   build-n-publish:
-    name: Build and publish Python distributions N50 to PyPI and TestPyPI
+    name: Build and publish Python 🐍 distributions 📦 to PyPI and TestPyPI
     runs-on: ubuntu-latest
 
     steps:
